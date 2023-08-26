@@ -78,7 +78,9 @@ bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
-
+#Feed Icons
+atom_feed:
+  hide: true
 # Social Sharing
 twitter:
   username               :
@@ -107,7 +109,7 @@ author:
   name             : "Deepika Vadlamudi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computer Science - Machine Learning"
-  location         : "Somewhere"
+  location         : "Sunnyvale, CA"
   email            :
   links:
     - label: "Email"
@@ -286,7 +288,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      comments:# true
       share: true
       related: true
+      show_date : true
+      # read_time: true
+
+      
+      
