@@ -4,8 +4,11 @@ main:
     url: /about/
   - title: "Github"
     url: https://github.com/DeepikaVadlamudi
-  - title: "Articles"
+  - title: "Posts"
     url: /articles/
+  - title: "Medium
+    url : https://medium.com/@deepika.vadlamudi
   - title: "Publications"
     url: /publications/
+    
 
