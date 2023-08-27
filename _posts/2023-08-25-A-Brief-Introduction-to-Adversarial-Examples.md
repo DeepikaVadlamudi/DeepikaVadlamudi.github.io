@@ -6,12 +6,9 @@
 
 <p>Three main aspects are used to evaluate the performance of these adversarially robust algorithms.</p>
 
-<li>
-  <item> Noise tolerance — Many kinds of noise exist when it comes to adversarial examples. Massart noise, Agnostic noise, Malicious noise, Nasty noise, to name a few. The algorithm to be developed should be robust to strongly corrupted data.</item>
-  <item> Computational efficiency — The goal remains to create algorithms such that they have utmost polynomial time complexity. Otherwise, it is impractical to implement such algorithms.
-</item>
-<item> Sample and Label complexity — The last goal that remains is that the algorithm is label efficient and sample efficient. The first step to developing any Machine Learning model is to gather data. After collecting a bunch of data, we need to label each instance appropriately, and usually, this is done by crowdsourcing. This is a tedious process and there are times when the instance is not correctly labeled as well (As people we tend to make mistakes). Therefore we hope to find the ground truth by requiring a minimum number of samples and labels.</item>
-</li>
+1. Noise tolerance — Many kinds of noise exist when it comes to adversarial examples. Massart noise, Agnostic noise, Malicious noise, Nasty noise, to name a few. The algorithm to be developed should be robust to strongly corrupted data.
+2. Computational efficiency — The goal remains to create algorithms such that they have utmost polynomial time complexity. Otherwise, it is impractical to implement such algorithms.
+3. Sample and Label complexity — The last goal that remains is that the algorithm is label efficient and sample efficient. The first step to developing any Machine Learning model is to gather data. After collecting a bunch of data, we need to label each instance appropriately, and usually, this is done by crowdsourcing. This is a tedious process and there are times when the instance is not correctly labeled as well (As people we tend to make mistakes). Therefore we hope to find the ground truth by requiring a minimum number of samples and labels.
 
 <p>Therefore we would want to build an algorithm that is noise-tolerant, computationally efficient, and minimizes the sample complexity and label complexity.
 </p>
