@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Github"
-    url: https://github.com/DeepikaVadlamudi
   - title: "About"
     url: /about/
+  - title: "Github"
+    url: https://github.com/DeepikaVadlamudi
   - title: "Articles"
     url: /articles/
   - title: "Publications"
