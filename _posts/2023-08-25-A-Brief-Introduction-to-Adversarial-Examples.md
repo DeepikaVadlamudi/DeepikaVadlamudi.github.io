@@ -20,7 +20,7 @@
 <p>Algorithms specific to a particular noise model are proposed in the literature. Following are some of the noise models considered in the agnostic PAC learning of halfspaces:
 </p>
 
-![Noise Models](assets/images/Noise_Models_PAC_learning_Halfspaces.png)
+![Noise Models](/assets/images/Noise_Models_PAC_learning_Halfspaces.png)
 
 <p>In this article we have learned about noise and why is it important for us to build robust classifiers. We have also discussed shortly on the different kinds of noise models in the agnostic PAC learning of halfspaces.</p>
 
