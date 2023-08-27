@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: posts
 title: Articles
 excerpt: "A List of Posts"
 ---
