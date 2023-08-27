@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About me
-modified: 2023-08-25T20:53:07.573882-04:00
+tags: [about, Jekyll, theme, responsive]
+modified: 2014-08-08T20:53:07.573882-04:00
 ---
 
 Hello! 
