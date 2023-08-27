@@ -1,2 +1,0 @@
-
-#Articles - posted on Medium
