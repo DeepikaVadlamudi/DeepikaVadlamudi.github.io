@@ -142,10 +142,10 @@ author:
 # Site Footer
 footer:
   links:
-  - label: "LinkedIn"
+    - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/deepikavadlamudi/"
-   - label: "Medium"
+    - label: "Medium"
       icon: "fab fa-medium"
       url: "https://medium.com/@deepika.vadlamudi"
     # - label: "Twitter"
