@@ -16,7 +16,7 @@
 
 *Data Loading: Both Polars and Pandas offer functions to read data from various file formats, such as CSV or Parquet. Let’s compare the speed of loading a CSV file using each library:
 
-'''
+```
 import polars as pl
 import pandas as pd
 
@@ -25,17 +25,17 @@ polars_df = pl.read_csv('data.csv')
 
 # Using Pandas
 pandas_df = pd.read_csv('data.csv')
-'''
+```
 
 <p>Polars often outperforms Pandas in terms of loading large datasets due to its parallelized data loading capabilities and efficient memory management.
 </p>
 
 * Column Selection: Selecting specific columns from a DataFrame is a common operation. Let’s compare the syntax and performance of column selection in Polars and Pandas:
- '''
+```
 # Using Polars
 selected_columns_polars = polars_df[['column1', 'column2']]
 
 # Using Pandas
 selected_columns_pandas = pandas_df[['column1', 'column2']]
 view raw
-'''
+```
