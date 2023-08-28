@@ -2,10 +2,10 @@
 
 <p>Data manipulation is a critical component of any data analysis or machine learning pipeline. Pandas, a popular Python library, has long been the go-to choice for data manipulation tasks. However, a new contender has emerged in recent years, known as Polars. In this article, we will explore the features of Polars, showcase some code examples, and conduct a comparative analysis against Pandas to highlight the strengths and weaknesses of each library.</p>
 
-##Why Polars?
+## Why Polars?
 <p>Polars is a blazingly fast DataFrame library built in Rust and exposed to Python. It provides a similar API to Pandas, making it easy for users to transition between the two libraries. Polars is specifically designed to handle large-scale datasets efficiently, leveraging the power of multi-threading and optimized algorithms.</p>
 
-##Advantages of Polars:
+## Advantages of Polars:
 1. Speed and Performance: Polars is designed with performance in mind, leveraging Rust’s memory management and parallelism. It can efficiently handle large-scale datasets, making it ideal for big data processing and analytics tasks.
 2. Memory Optimization: Polars employs a columnar data representation, which reduces memory footprint by storing data in a compressed format. This enables faster operations on large datasets while minimizing memory usage.
 3. Ease of Use: Polars offers a similar API to Pandas, making it easy for Pandas users to transition to Polars. It provides a familiar interface for data manipulation, making it straightforward to perform common operations such as filtering, aggregating, and joining data.
