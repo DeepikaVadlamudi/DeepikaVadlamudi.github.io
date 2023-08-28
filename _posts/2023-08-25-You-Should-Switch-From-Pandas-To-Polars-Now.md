@@ -14,7 +14,7 @@
 <p>To illustrate the differences between Polars and Pandas, let’s dive into some code examples and compare their performance for common data manipulation operations.
 </p>
 
-*Data Loading: Both Polars and Pandas offer functions to read data from various file formats, such as CSV or Parquet. Let’s compare the speed of loading a CSV file using each library:
+* Data Loading: Both Polars and Pandas offer functions to read data from various file formats, such as CSV or Parquet. Let’s compare the speed of loading a CSV file using each library:
 
 ```
 import polars as pl
