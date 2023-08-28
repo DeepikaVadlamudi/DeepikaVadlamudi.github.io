@@ -1,3 +1,5 @@
+
+![Polar Bear](/assets/images/Polarbear.png)
 <p>A small comparative analysis between pandas and polars</p>
 
 <p>Data manipulation is a critical component of any data analysis or machine learning pipeline. Pandas, a popular Python library, has long been the go-to choice for data manipulation tasks. However, a new contender has emerged in recent years, known as Polars. In this article, we will explore the features of Polars, showcase some code examples, and conduct a comparative analysis against Pandas to highlight the strengths and weaknesses of each library.</p>
