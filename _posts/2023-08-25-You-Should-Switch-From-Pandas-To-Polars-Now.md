@@ -31,6 +31,7 @@ pandas_df = pd.read_csv('data.csv')
 </p>
 
 * Column Selection: Selecting specific columns from a DataFrame is a common operation. Let’s compare the syntax and performance of column selection in Polars and Pandas:
+  
 ```
 # Using Polars
 selected_columns_polars = polars_df[['column1', 'column2']]
