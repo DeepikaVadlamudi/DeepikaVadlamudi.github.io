@@ -67,4 +67,4 @@ filtered_pandas = pandas_df[pandas_df['column1'] > 10]
 
 <p>Polars emerges as a powerful alternative to Pandas for fast data processing tasks. Its high-performance capabilities, memory efficiency, and seamless integration with Apache Arrow make it an excellent choice for handling large datasets. While Pandas remains a versatile library, it may face limitations when dealing with substantial amounts of data. As data continues to grow in size and complexity, Polars provides a valuable solution for efficient data manipulation and analysis. Depending on the specific use case and dataset size, developers and data scientists can choose between the two libraries to meet their needs efficiently.</p>
 
-<p>Note: To leverage the full potential of Polars, ensure you have it installed by running 'pip install polars` in your Python environment.</p>
+<p>Note: To leverage the full potential of Polars, ensure you have it installed by running `pip install polars` in your Python environment.</p>
