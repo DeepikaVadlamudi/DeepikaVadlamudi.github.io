@@ -25,7 +25,7 @@ url                      : "https://deepikavadlamudi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DeepikaVadlamudi/DeepikaVadlamudi.github.io"
 teaser                   : "/assets/images/Profile Picture.jpg"
-logo                     : "/assests/images/DeepikaVadlamudiLogo.png"
+logo                     : "/assets/images/DeepikaVadlamudiLogo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 search: true
