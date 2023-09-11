@@ -91,6 +91,7 @@ output_image = d_image.copy_to_host()
 print("Sobel Filter Result:")
 print(output_image)
 ```
+
 <p>This code defines a CUDA kernel `sobel_filter` that calculates the Sobel filter on the GPU. It uses the `numba` library to define the kernel and handles memory transfers between the CPU and GPU. The kernel is launched with appropriate grid and block dimensions.</p>
 
 ### Conclusion
