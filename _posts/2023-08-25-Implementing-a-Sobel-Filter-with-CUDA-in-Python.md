@@ -1,7 +1,7 @@
 <p>A fundamental task in the field of Computer Vision is Edge Detection. A sobel filter, a widely used image processing technique, is used for just this purpose. It helps in identifying edges or boundaries of objects within an image by highlighting the areas with rapid changes in intensity. 
   In this article, we shall explore the Sobel filter and demonstrate its implementation in Python using CUDA for GPU acceleration.</p>
 
-![A sobel filter applied to an image](assets/images/Sobel_Wiki_Image.png) 
+![A sobel filter applied to an image](/assets/images/Sobel_Wiki_Image.png) 
 
 ### Understanding the Sobel Filter
 
@@ -10,4 +10,11 @@
 
 <p>Here are the two Sobel Kernels:</p>
 
-<p>Horizontal Sobel Kernel (```Gx```)</p>
+<p>Horizontal Sobel Kernel (`Gx`)</p>
+
+```
+-1  0  1
+-2  0  2
+-1  0  1
+
+```
