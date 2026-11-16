@@ -24,7 +24,7 @@ description              : "Portfolio"
 url                      : "https://deepikavadlamudi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DeepikaVadlamudi/DeepikaVadlamudi.github.io"
-teaser                   : "/assets/images/Profile Picture.jpg"
+teaser                   : "/assets/images/deepika-portrait.jpg"
 logo                     : "/assets/images/DeepikaVadlamudiLogo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -109,9 +109,9 @@ analytics:
 # Site Author
 author:
   name             : "Deepika Vadlamudi"
-  avatar           : "/assets/images/Profile Picture.jpg"
-  bio              : "Computer Science - Machine Learning"
-  location         : "Sunnyvale, CA"
+  avatar           : "/assets/images/deepika-portrait.jpg"
+  bio              : "Machine Learning Research · ISI Kolkata"
+  location         : "Kolkata, India"
   email            :
   links:
     - label: "Email"
