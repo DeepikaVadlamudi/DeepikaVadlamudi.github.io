@@ -6,21 +6,22 @@
 <title>Deepika Vadlamudi | Machine Learning Research</title>
 <meta name="description" content="Deepika Vadlamudi, research scholar at ISI Kolkata. I study self-supervised representation learning and adversarial robustness.">
 <link rel="canonical" href="https://deepikavadlamudi.github.io/">
-<meta name="theme-color" content="#f8f5ef">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23372836'/%3E%3Ctext x='32' y='41' text-anchor='middle' fill='%23f8f5ef' font-family='serif' font-size='28'%3EDV%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b2d4d'/%3E%3Ctext x='32' y='41' text-anchor='middle' fill='%23ffffff' font-family='serif' font-size='28'%3EDV%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <style>
 :root {
   color-scheme: light;
-  --paper: #f8f5ef;
-  --ink: #30242e;
-  --muted: #645760;
-  --accent: #82425b;
-  --line: #dcd0d2;
-  --dark: #372836;
-  --light: #fcf4ed;
+  --paper: #ffffff;
+  --ink: #1b2631;
+  --muted: #667788;
+  --accent: #174a7e;
+  --accent-blue: #3e7cb1;
+  --line: #cdddea;
+  --dark: #0b2d4d;
+  --light: #eaf2f8;
   --serif: "Instrument Serif", Georgia, serif;
   --sans: "DM Sans", system-ui, sans-serif;
 }
@@ -29,7 +30,7 @@ html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 var(--sans); }
 a { color: inherit; text-underline-offset: .22em; }
 a:hover { color: var(--accent); }
-a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+a:focus-visible { outline: 2px solid var(--accent-blue); outline-offset: 5px; }
 img { width: 100%; height: auto; display: block; }
 h1,h2,h3,p { margin: 0; }
 h1,h2,h3 { font-family: var(--serif); font-weight: 400; line-height: 1.04; }
@@ -51,14 +52,14 @@ h1 { font-size: clamp(4rem,8.3vw,7.6rem); margin: .35rem 0 .6rem; letter-spacing
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .85rem 1.4rem; margin-top: 1.65rem; }
 .button { display: inline-block; background: var(--accent); color: white; text-decoration: none; padding: .68rem 1.2rem; font-weight: 700; font-size: .9rem; }
 .button:hover { background: var(--dark); color: white; }
-.portrait { margin: 0; padding: 10px; border: 1px solid var(--line); background: #efe4e5; }
+.portrait { margin: 0; padding: 10px; border: 1px solid var(--line); background: var(--light); }
 .portrait img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center 48%; }
 section { scroll-margin-top: 1rem; }
 .research { background: var(--dark); color: var(--light); padding-block: clamp(3.1rem,6vw,5.4rem); }
-.research .eyebrow { color: #eeb6c9; }
+.research .eyebrow { color: #a8c8e4; }
 h2 { font-size: clamp(3rem,5.3vw,5.1rem); letter-spacing: -.02em; }
 .section-title { margin-bottom: 1.6rem; }
-.research-intro { max-width: 67ch; margin-top: .75rem; color: #eadce3; }
+.research-intro { max-width: 67ch; margin-top: .75rem; color: #eaf2f8; }
 .band { padding-block: clamp(3.1rem,6vw,5.4rem); }
 .band + .band { border-top: 1px solid var(--line); }
 .split { display: grid; grid-template-columns: minmax(220px,.72fr) minmax(0,1.5fr); gap: 1.7rem clamp(2rem,6vw,6rem); }
@@ -71,7 +72,7 @@ h2 { font-size: clamp(3rem,5.3vw,5.1rem); letter-spacing: -.02em; }
 .entries h3 a:hover { text-decoration: underline; }
 .entries p:not(.eyebrow) { color: var(--muted); font-size: .94rem; }
 .entries .text-link { display: inline-block; margin-top: .5rem; }
-footer { background: #efe4e5; padding-block: 2.8rem; }
+footer { background: var(--light); padding-block: 2.8rem; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 1rem 2rem; flex-wrap: wrap; }
 footer h2 { font-size: 2.8rem; }
 @media (max-width: 850px) {
