@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include seo.html %}
+<meta name="theme-color" content="#f8f5ef">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Deepika Vadlamudi, home">Deepika Vadlamudi</a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/#projects' | relative_url }}">Projects</a>
+      <a href="{{ '/#experience' | relative_url }}">Experience</a>
+      <a href="{{ '/articles/' | relative_url }}">Writing</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap reading-page">
+{{ content }}
+</main>
+<footer>
+  <div class="wrap footer-inner">
+    <h2>Get in touch</h2>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/deepikavadlamudi">LinkedIn</a>
+      <a href="https://github.com/DeepikaVadlamudi">GitHub</a>
+      <a href="https://medium.com/@deepika.vadlamudi">Medium</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
